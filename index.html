@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        body {
+            background-color: rgb(208, 199, 169);
+        }
+        
+        h1 {
+            color: rgb(212, 145, 86);
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        li {
+            margin: 50px 0;
+        }
+
+        img {
+            border-radius: 10%;
+        }
+
+        a:hover {
+            color: rgb(56, 185, 36);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pedro Pugas</h1>
+    <p>Me chamo Pedro, tenho 28 anos, nasci na cidade de Salvador, estado da Bahia e atualmente moro na capital paulista. Sou fascinado por tecnologia desde sempre, amo música. Unindo essas duas paixões, faço música eletrônica utilizando softwares de produção.</p>
+    <ul>
+        <li>Música</li>
+        <li>Programar</li>
+        <li>Trekking</li>
+    </ul>
+    <img src="/img/IMG_0143.jpg" alt="mdoz" width="20%">
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Portugal</td>
+            <td><img src="/img/boom2016.jpg" alt="boom_festival" width="30%"></td>
+        </tr>
+        <tr>
+            <td>Suiça</td>
+            <td><img src="img/11796199_10153168151039331_9009953162845142511_n.jpg" alt="shankra_festival" width="40%"></td>
+        </tr>
+        <tr>
+            <td>Hungria</td>
+            <td><img src="img/ozora-festival-main-stage-lights.jpg" alt="ozora_festival" width="40%"></td>
+        </tr>
+    </table>
+    <a href="https://soundcloud.com/">Soundcloud</a>
+    <br>
+    <button onclick="document.getElementById('mensagem').innerHTML='Ainda bem que a gente tem a gente'">Clique para ver uma mensagem!</button>
+    <p id="mensagem"></p>
+</body>
+</html>
